@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,11 @@
 		011254A926BCF379000DFDC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011254A726BCF379000DFDC3 /* Main.storyboard */; };
 		011254AB26BCF37A000DFDC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011254AA26BCF37A000DFDC3 /* Assets.xcassets */; };
 		011254AE26BCF37A000DFDC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011254AC26BCF37A000DFDC3 /* LaunchScreen.storyboard */; };
+		011254C126BCF4B5000DFDC3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011254C026BCF4B5000DFDC3 /* Model.swift */; };
+		011254C426BCF517000DFDC3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 011254C326BCF517000DFDC3 /* RxSwift */; };
+		011254C626BCF634000DFDC3 /* NetworkAPIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011254C526BCF634000DFDC3 /* NetworkAPIRequests.swift */; };
+		011254C826BCF7C4000DFDC3 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011254C726BCF7C4000DFDC3 /* TableViewDataSource.swift */; };
+		011254CA26BCF84A000DFDC3 /* TableViewDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011254C926BCF84A000DFDC3 /* TableViewDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,10 @@
 		011254AA26BCF37A000DFDC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		011254AD26BCF37A000DFDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		011254AF26BCF37A000DFDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011254C026BCF4B5000DFDC3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		011254C526BCF634000DFDC3 /* NetworkAPIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIRequests.swift; sourceTree = "<group>"; };
+		011254C726BCF7C4000DFDC3 /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		011254C926BCF84A000DFDC3 /* TableViewDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011254C426BCF517000DFDC3 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +69,14 @@
 				011254A126BCF379000DFDC3 /* AppDelegate.swift */,
 				011254A326BCF379000DFDC3 /* SceneDelegate.swift */,
 				011254A526BCF379000DFDC3 /* ViewController.swift */,
+				011254C026BCF4B5000DFDC3 /* Model.swift */,
 				011254A726BCF379000DFDC3 /* Main.storyboard */,
 				011254AA26BCF37A000DFDC3 /* Assets.xcassets */,
 				011254AC26BCF37A000DFDC3 /* LaunchScreen.storyboard */,
 				011254AF26BCF37A000DFDC3 /* Info.plist */,
+				011254C526BCF634000DFDC3 /* NetworkAPIRequests.swift */,
+				011254C726BCF7C4000DFDC3 /* TableViewDataSource.swift */,
+				011254C926BCF84A000DFDC3 /* TableViewDataModel.swift */,
 			);
 			path = RxSwiftExampleApp_Pokemon;
 			sourceTree = "<group>";
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = RxSwiftExampleApp_Pokemon;
+			packageProductDependencies = (
+				011254C326BCF517000DFDC3 /* RxSwift */,
+			);
 			productName = RxSwiftExampleApp_Pokemon;
 			productReference = 0112549E26BCF379000DFDC3 /* RxSwiftExampleApp_Pokemon.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +127,9 @@
 				Base,
 			);
 			mainGroup = 0112549526BCF379000DFDC3;
+			packageReferences = (
+				011254C226BCF517000DFDC3 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 0112549F26BCF379000DFDC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011254C826BCF7C4000DFDC3 /* TableViewDataSource.swift in Sources */,
 				011254A626BCF379000DFDC3 /* ViewController.swift in Sources */,
+				011254C626BCF634000DFDC3 /* NetworkAPIRequests.swift in Sources */,
+				011254CA26BCF84A000DFDC3 /* TableViewDataModel.swift in Sources */,
+				011254C126BCF4B5000DFDC3 /* Model.swift in Sources */,
 				011254A226BCF379000DFDC3 /* AppDelegate.swift in Sources */,
 				011254A426BCF379000DFDC3 /* SceneDelegate.swift in Sources */,
 			);
@@ -341,6 +365,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		011254C226BCF517000DFDC3 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		011254C326BCF517000DFDC3 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 011254C226BCF517000DFDC3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0112549626BCF379000DFDC3 /* Project object */;
 }

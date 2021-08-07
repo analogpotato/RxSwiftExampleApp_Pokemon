@@ -13,7 +13,7 @@ class TableViewDataModel {
     private var apiCall = APICall()
     private let apiRequest = APIRequest()
 
-    var pokemonSource : Observable<[Pokemon]> {
+    private var pokemonSource : Observable<[Pokemon]> {
         return apiCall.send(apiRequest: apiRequest)
         }
 

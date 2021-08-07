@@ -27,6 +27,8 @@ class ViewController: UIViewController {
 
         dataModel.pokemon.subscribe { [weak self] (pokemon) in
             self?.update(pokemon)
+
+        // The following blocks aren't even necessary to state in the event you just want to have the object subscribed to, so you can remove them if they aren't needed for your purposes
         } onError: { error in
             print(error)
         } onCompleted: {
@@ -56,8 +58,4 @@ class ViewController: UIViewController {
             self.tableView.reloadData()
         }
     }
-}
-
-extension ViewController: UITableViewDelegate {
-
 }

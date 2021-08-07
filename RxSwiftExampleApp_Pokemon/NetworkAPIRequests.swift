@@ -9,7 +9,7 @@ import Foundation
 import RxSwift
 
 public enum RequestType: String {
-    case GET, POST, PUT,DELETE
+    case GET, POST, PUT, DELETE
 }
 
 class APIRequest {

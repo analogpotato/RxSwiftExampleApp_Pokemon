@@ -69,14 +69,14 @@
 				011254A126BCF379000DFDC3 /* AppDelegate.swift */,
 				011254A326BCF379000DFDC3 /* SceneDelegate.swift */,
 				011254A526BCF379000DFDC3 /* ViewController.swift */,
-				011254C026BCF4B5000DFDC3 /* Model.swift */,
-				011254A726BCF379000DFDC3 /* Main.storyboard */,
-				011254AA26BCF37A000DFDC3 /* Assets.xcassets */,
-				011254AC26BCF37A000DFDC3 /* LaunchScreen.storyboard */,
-				011254AF26BCF37A000DFDC3 /* Info.plist */,
-				011254C526BCF634000DFDC3 /* NetworkAPIRequests.swift */,
 				011254C726BCF7C4000DFDC3 /* TableViewDataSource.swift */,
 				011254C926BCF84A000DFDC3 /* TableViewDataModel.swift */,
+				011254C026BCF4B5000DFDC3 /* Model.swift */,
+				011254C526BCF634000DFDC3 /* NetworkAPIRequests.swift */,
+				011254AA26BCF37A000DFDC3 /* Assets.xcassets */,
+				011254A726BCF379000DFDC3 /* Main.storyboard */,
+				011254AC26BCF37A000DFDC3 /* LaunchScreen.storyboard */,
+				011254AF26BCF37A000DFDC3 /* Info.plist */,
 			);
 			path = RxSwiftExampleApp_Pokemon;
 			sourceTree = "<group>";

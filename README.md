@@ -1,4 +1,4 @@
-# RxSwiftExampleApp_Pokemon
+# RxSwiftExampleApp Pokemon
 Example App for Talk on RxSwift/Reactive Code
 
 

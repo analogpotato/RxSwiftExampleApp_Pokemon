@@ -8,4 +8,4 @@ This code is example code for the talk I delivered for VanXCoders around Reactiv
 
 # Resources
 
-I will update this portion with the keynote file when the talk is complete.
+I will update this portion with the keynote file and references when the talk is complete.
